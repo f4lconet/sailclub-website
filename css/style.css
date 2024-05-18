@@ -1,0 +1,134 @@
+body {
+    background-color:#FDFDFF;
+    color: #163152;
+    font-family: "Roboto";
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.main-nav {
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.under-sail h2 {
+    font-style: italic;
+    font-size: 44px;
+    line-height: 60px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.date {
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.h2-decorated {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+    text-decoration-line: underline;
+    text-decoration-color: #00C6BD;
+    text-decoration-style: solid;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color:#163152;
+    text-decoration-line: none;
+}
+
+.main-contacts-list {
+    font-weight: 400;
+    line-height: 22px;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.footer-item {
+    font-size: 10px;
+    line-height: 12px;
+    margin-bottom: 8px;
+}
+
+.footer-list ul {
+    font-size: 14px;
+    line-height: 16px;
+    /* margin-bottom: 12px; */
+}
+
+.footer-title {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.news {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.news h2 {
+    text-align: center;
+}
+
+.news-sign {
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #8693A4;
+}
+
+.news-title {
+    font-size: 22px;
+}
+
+/* .news-text {
+    margin-bottom: 12px;
+} */
+
+.news-text span {
+    text-decoration-line: line-through;
+    text-decoration-color: #163152;
+}
+
+.news h4 {
+    font-size: 20px;
+    /* margin-bottom: 12px; */
+}
+
+.teams {
+    list-style-type: disc;
+}
+
+/* .teams li {
+    margin-bottom: 8px;  
+} */
+
+.quote {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 36px;
+    border-left: 2px solid #00C6BD;
+}
+
+.news-author {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+}
