@@ -1,4 +1,5 @@
 body {
+    margin: 0;
     background-color:#FDFDFF;
     color: #163152;
     font-family: "Roboto";
@@ -7,18 +8,81 @@ body {
     font-weight: 400;
 }
 
+.main-header{
+    width: 1170px;
+    padding: 20px 55px;
+    margin: 0 auto;
+    margin-bottom: 40px; 
+}
+
+.main-header-container {
+    display: flex;
+}
+
+.header-logo {
+    margin-right: auto;
+}
+
 .main-nav {
     text-transform: uppercase;
     font-size: 14px;
-    line-height: 18px;
+    width: 559px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-right: 40px;
 }
 
-.under-sail h2 {
+.profile {
+    width: 36px;
+}
+
+.main-content{
+    width: 1170px;
+    padding: 0 55px;
+    margin: 0 auto;
+}
+
+.lead {
+    margin-bottom: 120px;
+}
+
+.lead-title {
     font-style: italic;
     font-size: 44px;
     line-height: 60px;
     text-transform: uppercase;
     font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.lead img {
+    width: 1170px;
+}
+
+.joining-club {
+    width: 1030px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.joining-club-container {
+    width: 400px;
+}
+
+.born-in-water {
+    width: 1030px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: 120px;
+}
+
+.born-in-water-container {
+    width: 400px;
 }
 
 .date {
@@ -37,13 +101,84 @@ body {
     text-underline-offset: 20px;
 }
 
-ul {
-    list-style-type: none;
+.news {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    width: 770px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+}
+
+.news figure {
+    margin: 0;
+    padding: 0;
+}
+
+.news h2 {
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.news-date {
+    font-size: 16px;
+    line-height: 19px;
+    align-items: center;
+    color: #8693A4;
+}
+
+.news-title {
+    font-size: 22px;
+}
+
+
+.news-text span {
+    text-decoration-line: line-through;
+    text-decoration-color: #163152;
+}
+
+.news h4 {
+    font-size: 20px;
+}
+
+.teams {
+    list-style-type: disc;
+}
+
+.quote {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 36px;
+    border-left: 2px solid #00C6BD;
+}
+
+.news-author {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
 }
 
 a {
     color:#163152;
     text-decoration-line: none;
+}
+
+.main-contacts {
+    width: 1170px;
+    display: flex;
+    gap: 100px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 120px;
+    flex-direction: row-reverse;
+}
+
+.main-contacts a {
+    height: min-content;
+}
+
+.main-contacts-container {
+    width: 400px;
 }
 
 .main-contacts-list {
@@ -57,78 +192,55 @@ h3 {
     line-height: 22px;
 }
 
+.main-footer {
+    padding: 60px 55px;
+    margin: 0 auto;
+    display: flex;
+    gap: 125px;
+}
+
+.footer-container {
+    width: 1170px;
+    display: flex;
+    padding: 0 55px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+
 .footer-item {
     font-size: 10px;
     line-height: 12px;
     margin-bottom: 8px;
 }
 
-.footer-list ul {
-    font-size: 14px;
-    line-height: 16px;
-    /* margin-bottom: 12px; */
+.footer-navigation-topics {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 70px;
 }
 
-.footer-title {
+.footer-menu {
+    font-size: 14px;
+    line-height: 16px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 165px;
+}
+
+.footer-navigation-title {
     font-size: 14px;
     line-height: 18px;
     font-weight: 700;
     text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
 }
 
-.news {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 26px;
-}
-
-.news h2 {
-    text-align: center;
-}
-
-.news-sign {
-    font-size: 16px;
-    line-height: 19px;
-    display: flex;
-    align-items: center;
-    color: #8693A4;
-}
-
-.news-title {
-    font-size: 22px;
-}
-
-/* .news-text {
-    margin-bottom: 12px;
-} */
-
-.news-text span {
-    text-decoration-line: line-through;
-    text-decoration-color: #163152;
-}
-
-.news h4 {
-    font-size: 20px;
-    /* margin-bottom: 12px; */
-}
-
-.teams {
-    list-style-type: disc;
-}
-
-/* .teams li {
-    margin-bottom: 8px;  
-} */
-
-.quote {
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 36px;
-    border-left: 2px solid #00C6BD;
-}
-
-.news-author {
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 19px;
+.footer-navigation-item {
+    width: 165px;
 }
