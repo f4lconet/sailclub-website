@@ -103,6 +103,43 @@ body {
     text-underline-offset: 20px;
 }
 
+.gallery {
+    width: 1170px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+}
+
+.gallery-title {
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 55px;
+}
+
+.gallery-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery-main-item {
+    margin-right: auto;
+    height: min-content;
+}
+
+.gallery-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.gallery-list-item {
+    margin-bottom: 30px;
+}
+
+.gallery-list-item:nth-last-child(1) {
+    margin-bottom: 0;
+}
+
+
 .news {
     font-weight: 400;
     font-size: 18px;
