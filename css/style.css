@@ -407,7 +407,7 @@ a {
     gap: 15px;
 }
 
-.social-list-item {
+.social-list-item a{
     margin: 0;
     padding: 0;
     width: 40px;
@@ -419,8 +419,6 @@ a {
     align-items: center;
 }
 
-
-
 h3 {
     font-weight: 700;
     font-size: 16px;
@@ -429,7 +427,9 @@ h3 {
 
 .main-footer {
     padding: 60px 55px;
+    padding-bottom: 0;
     margin: 0 auto;
+    margin-bottom: 60px;
     display: flex;
 }
 
@@ -473,6 +473,9 @@ h3 {
     padding: 0;
     margin: 0;
     width: 165px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
 }
 
 .footer-navigation-title {
