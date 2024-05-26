@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <title>Яхт-клуб "Под парусом"</title>   
     <link href="css/style.css" rel="stylesheet">
-    <link href="css/outline.css" rel="stylesheet">
-    <link href="css/outline-settings.css" rel="stylesheet">
+    <!-- <link href="css/outline.css" rel="stylesheet">
+    <link href="css/outline-settings.css" rel="stylesheet"> -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
@@ -37,9 +37,11 @@
                     <a href="#">Контакты</a>
                 </li>
             </ul>
-            <a href="#" class="profile">
+            
+            <a href="#" class="profile-icon">
                 <img src="img/profile.svg" width="16" alt="Личный кабинет">
             </a>
+            
         </nav>
     </header>
 
@@ -49,45 +51,72 @@
             <img src="img/yacht.jpg" width="1170" alt="Яхта на фоне живописных скал">   
         </section>
 
-        <section class="joining-club">
-            <div class="joining-club-container">
-                <p class="date">20 октября - 19 апреля</p>
-                <h2 class="reviews-title">Стань частью команды</h2>
-                <p>Если вы давно хотели попробовать себя в яхтинге – сейчас самое лучшее время!
+        <section class="article first-article">
+            <div class="article-container">
+                <p class="article-date">
+                    20 октября - 19 апреля
+                </p>
+                <h2 class="article-title">
+                    Стань частью команды
+                </h2>
+                <p>
+                    Если вы давно хотели попробовать себя в яхтинге – сейчас самое лучшее время!
                     Мы набираем команду будущих шкиперов. За 6 месяцев вы станете настоящим капитаном
-                    и уже в следующем сезоне сможете самостоятельно выйти в море!</p>
+                    и уже в следующем сезоне сможете самостоятельно выйти в море!
+                </p>
             </div>
             <img src="img/man-on-yacht.jpg" width="600" alt="Мужчина с биноклем на яхте">    
         </section>
 
-        <section class="born-in-water">
-            <div class="born-in-water-container">
-                <p class="date">16 июля - 23 июля</p>
-                <h2 class="reviews-title">Рожденные в воде</h2>
+        <section class="article second-article">
+            <div class="article-container second-article-container">
+                <p class="article-date">
+                    16 июля - 23 июля
+                </p>
+                <h2 class="article-title">
+                    Рожденные в воде
+                </h2>
                 <p>
                     Подарите детям настоящее приключение! День с морскими пиратами на корабле – 
                     это лучшая команда,веселые аниматоры, игры, соревнования, работа в команде и, 
-                    конечно, море!</p>
+                    конечно, море!
+                </p>
             </div>
             <img src="img/kids-on-yacht.jpg" width="600" alt="Дети, отдыхающие на яхте с родителями">    
         </section>
 
         <section class="gallery">
-            <h2 class="reviews-title gallery-title">Галерея</h2>
+            <h2 class="gallery-title">Галерея</h2>
             <div class="gallery-container">  
                 <img src="img/gallery-photo-1.jpg" width="970px" alt="" class="gallery-main-item">
                 <ul class="gallery-list">
-                    <li class="gallery-list-item"><img src="img/gallery-photo-2.jpg" width="170px" alt=""></li>
-                    <li class="gallery-list-item"><img src="img/gallery-photo-3.jpg" width="170px" alt=""></li>
-                    <li class="gallery-list-item"><img src="img/gallery-photo-4.jpg" width="170px" alt=""></li>
-                    <li class="gallery-list-item"><img src="img/gallery-photo-5.jpg" width="170px" alt=""></li>
+                    <li class="gallery-list-item">
+                        <a href="#">
+                            <img src="img/gallery-photo-2.jpg" width="170px" alt="">
+                        </a>
+                    </li>
+                    <li class="gallery-list-item">
+                        <a href="#">
+                            <img src="img/gallery-photo-3.jpg" width="170px" alt="">
+                        </a>
+                    </li>
+                    <li class="gallery-list-item">
+                        <a href="#">
+                            <img src="img/gallery-photo-4.jpg" width="170px" alt="">
+                        </a>
+                    </li>
+                    <li class="gallery-list-item">
+                        <a href="#">
+                            <img src="img/gallery-photo-5.jpg" width="170px" alt="">
+                        </a>
+                    </li>
                 </ul>
                 
             </div>
         </section>
 
         <section class="news">
-            <h2 class="reviews-title">Новости</h2>
+            <h2 class="news-title">Новости</h2>
             <div class="news-container">
                 <figure>
                     <img src="img/captain.jpg" width="770" alt="Победитель регаты шкипер Иван Кулешов">
@@ -95,18 +124,18 @@
                         Победитель регаты шкипер Иван Кулешов
                     </figcaption>
                 </figure>
-                <h3 class="news-title">Итоги регаты Sochi Race Week 2020</h3>
-                <p class="news-text">
+                <h3 class="news-article-title">Итоги регаты Sochi Race Week 2020</h3>
+                <p class="news-paragraph first-news-paragraph">
                     Свыше сотни участников собирались на побережье Сочи, чтобы посоревноваться за главный приз. 
                     В соревнованиях приняли участие как новички, 
                     так и <span>профессионалы</span> моряки, имеющие за плечами немалый опыт. 
                 </p>
-                <p class="news-text">
+                <p class="news-paragraph second-news-paragraph">
                     На протяжении всего плавания нас сопровождало солнце прекрасная погода, 
                     в отдельные дни ветер до 20 узлов. Регата была прекрасно организована, 135 яхтсменов, 
                     7 экипажей, 9 стран участниц, 4 гоночных дня, 3 дивизиона.
                 </p>
-                <h4>Команды-участники:</h4>
+                <h4 class="teams-title">Команды-участники:</h4>
                 <ul class="teams">
                     <li class="teams-item">Восток 35</li>
                     <li class="teams-item">Fortune Sailing</li>
@@ -116,7 +145,7 @@
                     <li class="teams-item">White Pepper</li>
                     <li class="teams-item">Pearl</li>
                 </ul>
-                <p class="news-text">
+                <p class="news-paragraph third-news-paragraph">
                     Чемпионом регаты Sochi Race Week 2020 стала команда Fortune Sailing, 
                     в прошлом году остановившаяся в одном шаге от победы, 
                     а в этом сезоне опередившая ближайшего соперника — экипаж «Восток 35» — 
@@ -125,25 +154,32 @@
                 <p class="quote">
                     Мы в команде очень дружны и понимаем друг друга без слов, думаю, поэтому мы и победили
                 </p>
-                <p class="news-text">
+                <p class="news-paragraph fourth-news-paragraph">
                     Поздравляем победителей и ждем все участников снова на осенних регатах!
                 </p>
-                <img src="img/author.jpg" width="60" alt="Артем Колесников">
-                <p class="author-name">
-                    <span class="news-author">Артем Колесников</span>
-                    <time class="news-date">20.06.2021</time>
-                </p>
-                <a href="#" class="repost"><img src="img/repost.svg" width="26" alt="Поделиться"></a>
+                <div class="author-container">
+                    <img src="img/author.jpg" class="author-photo" width="60" alt="Артем Колесников">
+                    <div class="author-list">
+                        <li class="author-list-item news-author">
+                            Артем Колесников
+                        </li>
+                        <li class="author-list-item news-author-date">
+                            20.06.2021
+                        </li>
+                    </div>
+                    <a href="#" class="repost-icon"><img src="img/repost.svg" width="26" alt="Поделиться"></a>
+                </div>
+                
             </div>
         </section>
 
         <section class="contacts">
             <div class="contacts-container">
-                <h2 class="reviews-title contacts-title">Контакты</h2>
+                <h2 class="article-title contacts-title">Контакты</h2>
                 <ul class="contacts-list">
                     <li class="contacts-list-item">
                         <h3 class="contacts-list-title">Адрес:</h3>
-                        <p>г. Сочи, ул. Бзугу, 9</p>
+                        <div>г. Сочи, ул. Бзугу, 9</div>
                     </li>
                     <li class="contacts-list-item">
                         <h3 class="contacts-list-title">Телефон:</h3>
@@ -155,20 +191,20 @@
                     </li>
                     <li class="contacts-list-item">
                         <h3 class="contacts-list-title">Мы в социальных сетях:</h3> 
-                        <ul class="social-network">
-                            <li class="social-network-item">
+                        <ul class="contacts-socials-list">
+                            <li class="social-list-item">
                                 <a href="#">
-                                    <img src="img/facebook.svg" width="9" alt="facebook">
+                                    <img src="img/facebook.svg" width="9" height="16px" alt="facebook">
                                 </a>
                             </li>
-                            <li class="social-network-item">
+                            <li class="social-list-item">
                                 <a href="#">
-                                    <img src="img/twitter.svg" width="18" alt="twitter">
+                                    <img src="img/twitter.svg" width="18" height="16px" alt="twitter">
                                 </a>
                             </li>
-                            <li class="social-network-item">
+                            <li class="social-list-item">
                                 <a href="#">
-                                    <img src="img/instagram.svg" width="18" alt="instagram">
+                                    <img src="img/instagram.svg" width="18" height="18px" alt="instagram">
                                 </a>
                             </li>
                         </ul>
